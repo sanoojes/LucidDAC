@@ -3600,16 +3600,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Same Sky"
+			(property "Description" "Female 4C/4C Shielded Through Hole Right Angle 3.5 mm Audio Jack"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3619,7 +3610,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Female 4C/4C Shielded Through Hole Right Angle 3.5 mm Audio Jack"
+			(property "MF" "Same Sky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5650,7 +5641,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "856b6d58-7af6-42fd-a211-df9c795cd18e")
+		(uuid "85f00544-03e5-4a90-a095-707874087eb3")
 	)
 	(wire
 		(pts
@@ -7379,7 +7370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 57.15 111.506 0)
 			(effects
 				(font
@@ -7624,6 +7615,73 @@
 			(project "LucidDAC"
 				(path "/32371a8f-8591-4cb8-99be-d0c360fa3c88"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 64.77 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c581007-be32-4252-b3f4-91fa62f31d48")
+		(property "Reference" "CE2"
+			(at 57.15 72.009 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220uF"
+			(at 59.69 72.009 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EEEFK1A221XP:CAP_EEEFK1A221XP"
+			(at 63.8048 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 64.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "237ce8a0-fed9-4e65-acf9-dd5662816238")
+		)
+		(pin "1"
+			(uuid "4ee58df5-098c-4f5c-956d-6144ea195e93")
+		)
+		(instances
+			(project "LucidDAC"
+				(path "/32371a8f-8591-4cb8-99be-d0c360fa3c88"
+					(reference "CE2")
 					(unit 1)
 				)
 			)
@@ -9322,7 +9380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1660519-2401-4dc8-a0d1-72fae0b631b7")
-		(property "Reference" "C3"
+		(property "Reference" "CE1"
 			(at 102.87 72.009 90)
 			(effects
 				(font
@@ -9338,7 +9396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "EEEFK1A221XP:CAP_EEEFK1A221XP"
 			(at 96.2152 67.31 0)
 			(effects
 				(font
@@ -9374,7 +9432,7 @@
 		(instances
 			(project "LucidDAC"
 				(path "/32371a8f-8591-4cb8-99be-d0c360fa3c88"
-					(reference "C3")
+					(reference "CE1")
 					(unit 1)
 				)
 			)
@@ -10768,74 +10826,6 @@
 			(project "LucidDAC"
 				(path "/32371a8f-8591-4cb8-99be-d0c360fa3c88"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 64.77 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5a3f757-edd0-4393-aa00-21cd05115933")
-		(property "Reference" "C2"
-			(at 57.15 72.009 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220uF"
-			(at 59.69 72.009 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 63.8048 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 64.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec213684-c982-4180-b132-361d6c1921b4")
-		)
-		(pin "1"
-			(uuid "9034ea22-e1a8-432c-8809-436e59095a75")
-		)
-		(instances
-			(project ""
-				(path "/32371a8f-8591-4cb8-99be-d0c360fa3c88"
-					(reference "C2")
 					(unit 1)
 				)
 			)
