@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCM2912APJTR")(type "KiCad")(uri "${KIPRJMOD}/lib/PCM2912APJTR")(options "")(descr ""))
+  (lib (name "SJ-435107")(type "KiCad")(uri "${KIPRJMOD}/lib/SJ-435107")(options "")(descr ""))
+  (lib (name "EEEHB1H2R2R")(type "KiCad")(uri "${KIPRJMOD}/lib/EEEHB1H2R2R")(options "")(descr ""))
+)
